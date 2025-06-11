@@ -316,20 +316,22 @@ const TimelineSection = ({ isKannada }) => {
       title: "Ceremony Timeline",
       subtitle: "Join us in celebrating our special moments",
       events: [
+        { time: "1:30 PM", event: "Lunch ", description: "Traditional feast and festivities" },
+
         { time: "3:00 PM", event: "Welcome & Blessings", description: "Traditional welcome ceremony" },
-        { time: "3:10 PM", event: "Ring Exchange", description: "Exchange of engagement rings" },
+        { time: "3:45 PM", event: "Ring Exchange", description: "Exchange of engagement rings" },
         { time: "3:30 PM", event: "Photography", description: "Couple and family photos" },
-        { time: "4:00 PM", event: "Lunch & Celebration", description: "Traditional feast and festivities" }
       ]
     },
     kannada: {
       title: "ಸಮಾರಂಭದ ವೇಳಾಪಟ್ಟಿ",
       subtitle: "ನಮ್ಮ ವಿಶೇಷ ಕ್ಷಣಗಳನ್ನು ಆಚರಿಸಲು ನಮ್ಮೊಂದಿಗೆ ಸೇರಿ",
       events: [
+        { time: "1:30 PM", event: "ಊಟ ಮತ್ತು ಆಚರಣೆ", description: "ಸಾಂಪ್ರದಾಯಿಕ ದಾವತ್ತು ಮತ್ತು ಹಬ್ಬಾಚರಣೆ" }
+,
         { time: "೩:೦೦ PM", event: "ಸ್ವಾಗತ ಮತ್ತು ಆಶೀರ್ವಾದ", description: "ಸಾಂಪ್ರದಾಯಿಕ ಸ್ವಾಗತ ಸಮಾರಂಭ" },
-        { time: "೩:೧೦ PM", event: "ಉಂಗುರ ವಿನಿಮಯ", description: "ನಿಶ್ಚಿತಾರ್ಥದ ಉಂಗುರಗಳ ವಿನಿಮಯ" },
+        { time: "3:45 PM", event: "ಉಂಗುರ ವಿನಿಮಯ", description: "ನಿಶ್ಚಿತಾರ್ಥದ ಉಂಗುರಗಳ ವಿನಿಮಯ" },
         { time: "೩:೩೦ PM", event: "ಛಾಯಾಗ್ರಹಣ", description: "ದಂಪತಿ ಮತ್ತು ಕುಟುಂಬದ ಫೋಟೋಗಳು" },
-        { time: "೪:೦೦ PM", event: "ಊಟ ಮತ್ತು ಆಚರಣೆ", description: "ಸಾಂಪ್ರದಾಯಿಕ ದಾವತ್ತು ಮತ್ತು ಹಬ್ಬಾಚರಣೆ" }
       ]
     }
   };
@@ -392,7 +394,7 @@ const VenueSection = ({ isKannada }) => {
     english: {
       title: "Venue Details",
       subtitle: "Where our hearts unite in celebration",
-      venue: "Grand Celebration Hall",
+      // venue: "Grand Celebration Hall",
       address: "Bidarahalli, Bangalore Karnataka",
       facilities: [ "Parking Available", "Traditional Decorations", "Professional Photography"]
     },
@@ -424,7 +426,7 @@ const VenueSection = ({ isKannada }) => {
         <div className="bg-black/40 backdrop-blur-md rounded-3xl p-6 sm:p-8 border border-white/10 hover:border-white/20 transition-all duration-500">
           <div className="text-center mb-6 sm:mb-8">
             <MapPin className="w-12 h-12 sm:w-16 sm:h-16 text-rose-400 mx-auto mb-4 animate-pulse" />
-            <h3 className="text-2xl sm:text-3xl font-bold text-white mb-2 break-words">{currentContent.venue}</h3>
+            {/* <h3 className="text-2xl sm:text-3xl font-bold text-white mb-2 break-words">{currentContent.venue}</h3> */}
             <p className="text-lg sm:text-xl text-white/80 break-words px-2">{currentContent.address}</p>
           </div>
 
