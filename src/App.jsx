@@ -15,7 +15,7 @@ import {
   LocateIcon
 } from 'lucide-react';
 import image1 from './assets/i2.jpg'
-import image2 from './assets/i1.jpg'
+import image2 from './assets/im.jpg'
 
 // Floating Animation Component
 const FloatingElements = () => {
