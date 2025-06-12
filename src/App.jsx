@@ -148,6 +148,7 @@ const HeroSection = ({ isKannada }) => {
             
             <div className="flex items-center gap-2 animate-pulse">
               <Heart className="w-6 h-6 sm:w-8 sm:h-8 text-pink-400" />
+              
               <span className="text-white/60 text-sm sm:text-base">&</span>
               <Heart className="w-6 h-6 sm:w-8 sm:h-8 text-rose-400" />
             </div>
