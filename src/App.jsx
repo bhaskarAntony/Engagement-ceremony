@@ -449,9 +449,9 @@ const VenueSection = ({ isKannada }) => {
             </p>
           </div>
           <br />
-           <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3886.5862166877887!2d77.711925475078!3d13.06198978726173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sin!4v1749583322493!5m2!1sen!2sin" width="100%" height={400}  className="border-0 m-auto rounded-md" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3886.5862166877887!2d77.711925475078!3d13.06198978726173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTPCsDAzJzQzLjIiTiA3N8KwNDInNTIuMiJF!5e0!3m2!1sen!2sin!4v1749891889299!5m2!1sen!2sin" width="100%" height={400}  className="border-0 m-auto rounded-md" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
            <br />
-            <a href='https://maps.app.goo.gl/oAKgCDL66sVY3Ejk8' target='_blank' className=" bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center border-4 border-black group-hover:scale-110 transition-transform duration-300 m-auto">
+            <a href='https://maps.app.goo.gl/pWxsAKp9WTQCWfM47' target='_blank' className=" bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center border-4 border-black group-hover:scale-110 transition-transform duration-300 m-auto">
                     <MapPin className="w-4 h-4 sm:w-6 sm:h-6 text-white" />
                     <span>View Location</span>
 
